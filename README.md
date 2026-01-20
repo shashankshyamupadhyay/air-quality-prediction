@@ -13,6 +13,26 @@ Predicting air quality indices using Hybrid LSTM-CNN deep learning architecture.
 - Dataset: UCI Air Quality Dataset
 - Model: Hybrid CNN-LSTM with Attention
 
+## ✅ First Training Results (COMPLETED)
+
+**Date**: January 21, 2025  
+**Training Duration**: 12 epochs (early stopping)  
+**Dataset**: UCI Air Quality Dataset  
+**Configuration**:
+- Lookback window: 168 hours (7 days)
+- Forecast horizon: 24 hours (1 day)
+- Target: CO(GT)
+
+**Performance Metrics**:
+- RMSE: [YOUR NUMBER]
+- MAE: [YOUR NUMBER]
+- R² Score: [YOUR NUMBER]
+
+**Model**: Hybrid LSTM-CNN with Attention  
+**Status**: ✅ Training complete, model saved
+
+![Training Results](results.png)
+
 ## Quick Facts
 - **Dataset**: 9,358 hourly observations
 - **Location**: Italian city monitoring station
@@ -26,4 +46,4 @@ Predicting air quality indices using Hybrid LSTM-CNN deep learning architecture.
 - [ ] Build API
 
 ---
-*Project started: January 2025*
+*Project started: January 2026*
