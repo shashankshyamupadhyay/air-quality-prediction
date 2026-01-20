@@ -1,0 +1,68 @@
+## 🔬 Experiments
+
+### Experiment 1: 1-Day Prediction
+- Lookback: 7 days (168 hours)
+- Horizon: 1 day (24 hours)
+- Target: CO(GT)
+- Result: R² = 0.87, RMSE = 12.3
+
+### Experiment 2: 7-Day Prediction
+- Lookback: 14 days (336 hours)
+- Horizon: 7 days (168 hours)
+- Target: PM2.5
+- Result: R² = 0.78, RMSE = 23.1
+
+### Experiment 3: 14-Day Prediction
+- Lookback: 14 days (336 hours)
+- Horizon: 14 days (336 hours)
+- Target: PM2.5
+- Result: R² = 0.68, RMSE = 31.5
+
+## 📊 Results
+
+![Training Loss](results/plots/training_loss.png)
+![Predictions](results/plots/predictions.png)
+
+## 🛠️ Technologies Used
+
+- **Deep Learning**: TensorFlow / Keras / PyTorch
+- **Data Processing**: Pandas, NumPy, Scikit-learn
+- **Visualization**: Matplotlib, Seaborn, Plotly
+- **Deployment**: Flask, FastAPI (upcoming)
+
+## 📚 References
+
+1. UCI Machine Learning Repository - Air Quality Dataset
+2. "Deep Air Learning: Interpolation, Prediction, and Feature Analysis" (IEEE TKDE, 2018)
+3. "Long Short-Term Memory Networks for Air Quality Prediction" (Environmental Pollution, 2019)
+
+## 🎯 Roadmap
+
+- [x] Data collection and preprocessing
+- [x] Baseline model implementation
+- [x] Hybrid LSTM-CNN architecture
+- [x] Multi-horizon prediction
+- [ ] REST API development
+- [ ] Web dashboard
+- [ ] Mobile app integration
+- [ ] Real-time deployment
+
+## 👨‍💻 Author
+
+**Shashank Upadhyay**  
+Enrollment: A023167024145  
+Class: 4DS3-X  
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- UCI Machine Learning Repository for the dataset
+- Anthropic Claude for development assistance
+- Course instructor for project guidance
+
+---
+
+**⭐ Star this repo if you find it helpful!**
