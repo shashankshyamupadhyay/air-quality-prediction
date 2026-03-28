@@ -1,0 +1,5 @@
+{
+  "name": "Air Quality AI Predictor",
+  "description": "A full-stack air quality forecasting application using TensorFlow (simulated) and Gemini AI for health insights.",
+  "requestFramePermissions": []
+}
